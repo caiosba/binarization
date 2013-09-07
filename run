@@ -1,0 +1,16 @@
+#!/bin/bash
+make
+methods="nsw"
+while test -n "$methods"
+do
+  m=${methods:0:1}
+  images="abcd"
+  while test -n "$images"
+  do
+    i=${images:0:1}
+    echo "Running with image $i and method $m"
+    images=${images:1}
+    ./binary $i $m
+  done
+  methods=${methods:1}
+done
