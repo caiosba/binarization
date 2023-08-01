@@ -9,7 +9,7 @@ This code is ugly and was made in a hurry. But works pretty well. One of the maj
 
 Check directories input and output for input images and output images using different binarization methods.
 
-For example, for this input image (http://homes.dcc.ufba.br/~caiosba/mestrado/binarization/d.png), this one (http://homes.dcc.ufba.br/~caiosba/mestrado/binarization/d.this.w.png) is produced as output when using the feature space partitioning algorithm with Wolfjolion as auxiliary method.
+For example, for this input image (https://github.com/caiosba/binarization/blob/master/input/d.png), this one (https://github.com/caiosba/binarization/blob/master/output/d.this.w.png) is produced as output when using the feature space partitioning algorithm with Wolfjolion as auxiliary method.
 
 The program can be run this way:
 
